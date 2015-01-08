@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="../angular.js"></script>
+	</head>
+	<body ng-app ng-init="num1;num2">
+		<div>
+			<h3>Add Two Numbers</h3>
+		</div>
+		<div>
+			<label>Enter 1st Integer : </label><input type="number" min="0" ng-model="num1"> 
+		</div>
+		<br>
+		<div>
+			<label>Enter 2nd Integer : </label><input type="number" min="0" ng-model="num2"> 
+		</div>
+		<div>
+			<label>Total : </label><b>{{ num1 + num2}}</b>
+		</div>
+	</body>
+</html>
