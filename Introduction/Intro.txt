@@ -5,3 +5,19 @@ Angular Js is a Java Script framework.
   It Separates your RIA applicaition in to Model + View + Controller.
               Views are defined as HTML Content
               Model + Controller is defined as javascript
+              
+Conceptual Overview:
+  1.  Template --> HTML and additional Markup.
+  2.  Directives  --> Extend HTML with custom attributes and elements.
+  3.  Model --> The data shown to the user in the view and with which the user interacts.
+  4.  Scope --> Context where model is stored so that controllers,directives and expressions can use it.
+  5.  Expressions --> Access variables and functions them from scope.
+  6.  Compiler  --> Parses the template and instantiates directives and expressions.
+  7.  Filter  --> Formats the value of the expression for display of the user.
+  8.  View -->  What the user sees (HTML Content)
+  9.  Data Binding -->  Sync data between the model and view
+  10. Controller  --> It holds the bussiness login.
+  11. Dependency Injection  --> Creates and wires object and functions
+  12. Injector  --> Dependency Injection container
+  13. Module  --> A container for the different parts of an app including controllers, filters , services, directives which configures the injector.
+  14. Service --> reusable business logic independent of view
