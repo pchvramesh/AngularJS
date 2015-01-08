@@ -1,0 +1,2 @@
+Angular Js is a Java script frame work.
+It is used for developing Client side web applications.
