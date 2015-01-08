@@ -1,2 +1,7 @@
-Angular Js is a Java script frame work.
-It is used for developing Client side web applications.
+Angular Js is a Java Script framework.
+  It is used for developing Client side Rich Internet Applications (RIA).
+  It uses HTML as templating language to build amazing dynamic web applications.
+  It is based on the MVC pattern.
+  It Separates your RIA applicaition in to Model + View + Controller.
+              Views are defined as HTML Content
+              Model + Controller is defined as javascript
