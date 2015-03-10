@@ -3,9 +3,10 @@
  */
 "use strict";
 var TestApp = angular.module("testApp",["ui.router"]).config(["$urlRouterProvider","$stateProvider",function(a,b) {
-    a.otherwise("login", {
+    b.state("login", {
         url: "/login",
         title: "Login",
         templateUrl: "views/test.html"
     })
+    a.otherwise('/login');
 }]);
