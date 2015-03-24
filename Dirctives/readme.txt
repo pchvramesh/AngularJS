@@ -2,3 +2,8 @@ Directives are the DOM Elements that tells the angular js HTML compiler to add s
 Example:
 	ng-model
 	ng-app
+
+Example to DO APP with ng-repeat
+
+Step-1:	Define Boundary
+step-2: Load the angular JS
